@@ -7,6 +7,7 @@
 body{
     font-size: 16px;
     flex-wrap: wrap;
+    min-height: 80vh;
 }
 
 header{
@@ -161,7 +162,7 @@ a{
     height: 190px;
 }
 
-#bottom{
+footer{
     display: flex;
     background: #BEBCBC;
     width: 100%;
