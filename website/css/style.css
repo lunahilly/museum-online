@@ -7,8 +7,7 @@
 body{
     font-size: 16px;
     flex-wrap: wrap;
-    min-height: 80vh;
-    max-height: 100%s;
+    height: 100vh;
 }
 
 header{
@@ -119,6 +118,7 @@ p{
     display: flex;
     justify-items: center;
     text-align: justify;
+    border: solid black 1px;
 }
 
 #fototekst{
@@ -179,8 +179,8 @@ a{
     height: 70px;
     width: 70px;
     display: block;
-    margin-left: 43%;
-    margin-right: 42%;
+    margin-left: 50%;
+    transform: translateX(-50%);
     width: 140px;
     margin-top: 15px;
     position: absolute;
@@ -195,15 +195,102 @@ a{
 #locatie{
     font-size: 30px;
     font-family: cursive;
-    margin-left: 15%;
+    margin-left: 20%;
     text-decoration: none;
     text-decoration-color: black;
     color: black;
 }
 
-#eh{
-    background: white;
-    height: 190px;
+.een{
+    height: 400px;
+    position: relative;
+}
+
+.reviews{
+    float: left;
+}
+
+.lijn-verticaal{
+    width: 1px;
+    height: 100%;
+    background: black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.game{
+    float: right;
+}
+
+
+.lijn-horizontaal{
+    min-width: 100vh;
+    height: 0.8px;
+    background: black;
+}
+
+.twee{
+    height: 300px;
+    display: flex;
+}
+
+.openingstijden{
+    float: left;
+}
+
+.contact{
+    width: 49vh;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    display: flexbox;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+.gegevens{
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.telefoon{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.nummer{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.email{
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.mail{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.maps{
+    margin-left: 400px;
+    margin-top: -100px;
+    width: 250px;
+    height: 150px;
+}
+
+.logos{
+    float: left;
+    margin-left: 50px;
+    width: 50px;
+    margin-top: 0px;
+    height: 55px;
 }
 
 footer{
@@ -214,11 +301,3 @@ footer{
     align-items: center;
 }
 
-@keyframes arrows {
-    from{
-        scale: 1;
-    }
-    to{
-        scale: 1.5;
-    }
-}
