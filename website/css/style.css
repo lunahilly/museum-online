@@ -8,6 +8,7 @@ body{
     font-size: 16px;
     flex-wrap: wrap;
     height: 100vh;
+    min-width: 100%;
 }
 
 header{
@@ -28,10 +29,8 @@ header{
 }
 
 #tickets{
-
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 #contact{
@@ -176,8 +175,8 @@ a{
 }
 
 #logo{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 40px;
     display: block;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -185,6 +184,7 @@ a{
     margin-top: 15px;
     position: absolute;
 }
+
 
 #game-museum{
     font-family: cursive;
@@ -206,8 +206,24 @@ a{
     position: relative;
 }
 
+.head{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
 .reviews{
     float: left;
+}
+
+.review{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.sterren{
+    height: 50px;
 }
 
 .lijn-verticaal{
@@ -236,6 +252,23 @@ a{
 
 .openingstijden{
     float: left;
+    max-width: 0px;
+    display: flex;
+}
+
+
+.tijden_mado{
+    margin-top: 100px;
+    margin-left: -215px;
+    font-size: 20px; 
+    min-width: 250px;
+    float: left;
+}
+
+.logo3{
+    float: right;
+    margin-top: 75px;
+    margin-left: 100px;
 }
 
 .contact{
@@ -251,12 +284,6 @@ a{
     text-decoration: underline;
 }
 
-
-.gegevens{
-    margin-left: 50px;
-    margin-top: 25px;
-    font-size: 30px;
-}
 
 .telefoon{
     margin-top: 40px;
