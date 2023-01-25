@@ -385,6 +385,7 @@ h1{
     padding-left: 30px;
     padding-bottom: 40px;
     opacity: 1;
+    padding-right: 30px;
 }
 
 h1{
@@ -392,9 +393,12 @@ h1{
     margin-top: 40px;
     padding-bottom: 20px;
 }
+h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 
 .tarieven{
-    left: 0;
     margin: auto;
     width: 30vw;
     background: rgb(255, 255, 255, 00.4);
@@ -410,9 +414,15 @@ h1{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url(/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+.contacten{
+    margin-top: -40px;
+    padding-left: 30px;
+}
+
+.sloten{
+    margin-top: -20px;
 }
 
 footer{
@@ -423,28 +433,6 @@ footer{
     align-items: center;
     bottom: 0;
     position: fixed;
-}
-
-.contacts{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url(/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.contacten{
-    left: 0;
-    margin: auto;
-    width: 30vw;
-    background: rgb(255, 255, 255, 00.4);
-    border-radius: 50px;
-    margin-top: 100px;
-    height: 400px;
-    margin-left: 150px;
 }
 
 .background{
