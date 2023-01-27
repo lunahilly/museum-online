@@ -79,7 +79,7 @@ header{
 }
 
 .articles{
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     padding: 40px;
     display: flex;
@@ -242,6 +242,7 @@ a{
 .een{
     height: 400px;
     position: relative;
+    display: flex;
 }
 
 .head{
@@ -253,7 +254,7 @@ a{
 
 .reviews{
     float: left;
-    max-width: 300px;
+    max-width: 49vw;
 }
 
 .review{
@@ -280,10 +281,18 @@ a{
     background: black;
     margin-left: 50%;
     transform: translateX(-50%);
+    position: absolute;
 }
 
 .game{
     float: right;
+    width: 800px;
+    position: relative;
+    margin-left: 7px
+}
+
+#game{
+    background: black;
 }
 
 
@@ -296,6 +305,7 @@ a{
 .twee{
     height: 350px;
     display: flex;
+    position: relative;
 }
 
 .openingstijden{
@@ -337,6 +347,7 @@ a{
     font-size: 20px;
     position: relative;
     display: flexbox;
+    margin-left: 50%;
 }
 
 .underline{
@@ -394,21 +405,17 @@ a{
     width: 30vw;
     background: gray;
 }
-
 .tarief{
     text-align: center;
 }
-
 h1{
     text-align: center;
 }
-
 .money{
     width: 30vw;
     padding: 20px;
     text-align: center;
 }
-
 */
 
 .money{
