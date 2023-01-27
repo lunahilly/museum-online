@@ -288,11 +288,12 @@ a{
     float: right;
     width: 800px;
     position: relative;
-    margin-left: 7px
+    margin-left: 7px;
 }
 
 #game{
-    background: black;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 
